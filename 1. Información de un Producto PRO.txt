@@ -1,0 +1,36 @@
+1. Información de un Producto
+Diseña un programa que muestre la siguiente información sobre un producto:
+• Nombre del producto
+• Descripción del producto
+• Precio del producto
+• Código de barras
+ 
+algoritmo para información de un producto
+1 inicio 
+2 obtener la información del producto nombre del producto, descripción del producto, precio del producto, código de barras
+3 mostrar la información del producto
+4 fin
+
+1 seudocódigo
+start
+//declarar variables 
+declare string "nombre del producto"
+declare string "descripción del producto"
+declare float "precio del producto"
+declare integer "código de barras"
+//pedir información del producto 
+Display digite "nombre del producto"
+input "nombre del producto"
+Display digite "descripción del producto"
+input "descripción del producto"
+Display digite "precio del producto"
+input "precio del producto
+Display "código de barras"
+input "código de barras"
+//mostrar información del producto 
+Display "nombre del producto, es" nombre
+Display "descripción del producto, es" descripción 
+Display "precio del producto, es" precio
+Display "código de barras, es" código de barras 
+END
+
