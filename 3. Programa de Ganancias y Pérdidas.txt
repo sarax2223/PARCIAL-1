@@ -1,0 +1,52 @@
+3. Programa de Ganancias y Pérdidas en un Negocio de Venta de Autos
+El mes pasado, un concesionario de autos vendió un automóvil usado. Aquí están los detalles:
+• El precio de compra del automóvil fue de $15,000.
+• Se realizaron reparaciones que costaron $2,000.
+• El concesionario vendió el automóvil por $18,500.
+• Se pagó una comisión del 5% sobre el precio de venta al vendedor.
+Diseña un programa que muestre la siguiente información:
+• El costo total invertido en el automóvil.
+• El monto de la comisión pagada al vendedor.
+• El precio final de venta.
+• La ganancia o pérdida después de la venta, considerando todos los costos y la comisión
+
+
+     Seudocodigo
+
+    //Declarar variables
+
+    Declarar precio compra, costo reparaciones, precio venta, porcentaje comisión Como Real
+    Declarar costo total invertido, comisión vendedor, precio final venta, ganancia perdida Como Real
+
+    //Inicializar variables con los datos proporcionados
+     display  "precio compra 15000"
+	input precio de compra
+     display "costo reparaciones  2000"
+	input "costo reparaciones"
+   display "precio venta  18500"
+	input precio de venta 
+   display "porcentaje comisión  0.05"
+	input porcentaje
+
+    //Calcular el costo total invertido
+     declare float costo total invertido precio compra + costo reparaciones
+
+    //Calcular la comisión pagada al vendedor
+     declare float comisión vendedor = precio venta * porcentaje comisión
+
+    // Calcular el precio final de venta
+    declare float precio final venta  precio venta - comisión vendedor
+
+    // Calcular la ganancia o pérdida
+    declare float ganancia perdida precio venta - costo total invertido - comisión vendedor
+
+    // Mostrar los resultados
+    Display "Costo total invertido en el automóvil: $" + costo total invertido, 
+	input Costo total invertido en el automóvil
+    Display "Monto de la comisión pagada al vendedor: $" + comisión vendedor,
+	input Monto de la comisión pagada al vendedor
+     "Precio final de venta: $" + precio final venta
+    Display Precio final de venta
+     "Ganancia o pérdida después de la venta: $" + ganancia perdida
+	Display Ganancia o pérdida después de la venta
+Fin

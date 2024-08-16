@@ -1,0 +1,45 @@
+2. Cálculo de Material para Construcción
+Una empresa constructora necesita saber cuántas bolsas de cemento se requieren para cubrir un área 
+específica. Una bolsa de cemento cubre 1,500 pies cuadrados. Diseña un programa que pida al 
+usuario ingresar el total de pies cuadrados a cubrir y calcule cuántas bolsas de cemento se 
+necesitarán.
+
+     algoritmo
+
+1°start
+
+2°Solicitar al usuario que ingrese el total de pies cuadrados a cubrir.
+
+3°Leer el valor ingresado por el usuario y guardarlo en la variable área a cubrir.
+
+4°Definir una constante COBERTURA_POR_BOLSA igual a 1500 (pies cuadrados por bolsa de cemento).
+
+5°Calcular la cantidad de bolsas necesarias dividiendo área a cubrir entre COBERTURA_POR_BOLSA.
+
+6°Redondear el resultado hacia arriba para asegurar que se cubra todo el área (esto es porque no se pueden comprar fracciones de bolsas).
+
+7°Mostrar al usuario el número de bolsas necesarias.
+
+8°End
+
+   seudocódigo
+
+//solicitar el área a cubrir
+start
+
+ //"Ingrese el total de pies cuadrados a cubrir:"
+   Display  Leer área a cubrir
+	imput Leer área a cubrir
+    // Definir la cobertura de una bolsa de cemento
+   Display  POR BOLSA 1500
+	imput POR BOLSA
+    // Calcular la cantidad de bolsas necesarias
+   declare  bolsas necesarias  área a cubrir / COBERTURA POR BOLSA
+    
+    // Rdondear el resultado hacia arriba
+    declare bolsas necesarias Redondear Arriba(bolsas necesarias)
+
+    // Mostrar el resultado
+   Display "Se necesitan ", bolsas necesarias, " bolsas de cemento."
+End
+
